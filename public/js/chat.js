@@ -67,6 +67,9 @@ socket.on('roomData', ({room, users})=>{
         users
     })
     document.querySelector('#sidebar').innerHTML = html
+    document.querySelector('#active-member').innerHTML = html
+    document.querySelector('#room-header').innerHTML = html
+    console.log(html)
 })
 
 

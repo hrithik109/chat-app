@@ -1,0 +1,42 @@
+@media (min-width: 240px) and (max-width: 740px) {
+    .chat__sidebar{
+        display: none;
+    }
+    nav .room-title {
+        display: none;
+    }
+    nav #room-header .users{
+        display: none;
+    }
+    nav #room-header .list-title{
+        display: none;
+    }
+    nav #room-header .room-title{
+        display: block;
+        color: #fff;
+    }
+    nav .container-fluid{
+        background-color:#2c2f3a;
+    }
+    nav #active-member{
+        color: #fff;
+        height: 90px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    nav #active-member::-webkit-scrollbar {
+        display: none;
+      }
+    .navbar{
+        padding-top: 0;
+    }
+    nav button:hover{
+        background: #2c2f3a;
+    }
+}
+
+@media (min-width : 741px){
+    .navbar{
+        display: none;
+    }
+}
